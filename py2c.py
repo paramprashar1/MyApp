@@ -22,4 +22,8 @@ print(ages1[1])
 print(ages2[1])
 #print(ages3[1])
 
+thisset = {"apple", "banana", "cherry"}
+
+print("banana" in thisset)
+
 
