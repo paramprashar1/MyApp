@@ -44,7 +44,7 @@ numb=2
 numc=numa//numb
 print(numc)
 
-#Modulus operator %
+#Modulus operator % remainder only
 numa=10
 numb=2
 numc=numa%numb

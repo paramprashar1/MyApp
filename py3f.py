@@ -27,8 +27,21 @@ else:
 
 print(disount)
 
-#Nested If
-isInternetOn=True
-isGPSOn=False
+# Nested if/else
+isInternetOn = True
+isGPSOn = False
+"""
+if isInternetOn:
+    print("You can browse Google Maps")
+    if isGPSOn:
+        print("You can navigate using Google Maps")
+    else:
+        print("Please Enable GPS and Try Again")
+else:
+    print("Please Enable Internet and Try Again")
+"""
 
-
+if isInternetOn and isGPSOn:
+    print("You can browse and Navigate using Google Maps")
+else:
+    print("Please enable Internet/GPS and Try Again")

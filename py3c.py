@@ -7,6 +7,6 @@ maths=91
 
 print("Can student be an engineer?",maths>phy and maths>chem)
 
-print("Can student be an engineer?",maths>phy and chem>chem)
+print("Can student be an engineer?",maths>phy or chem>chem)
 
 
