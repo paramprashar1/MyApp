@@ -3,7 +3,7 @@
 1 Operators
 2 conditional constructs
 3 loops/ iterations
-"""
+
 
 
 #Arithmetic operators + ,- ,*, / ,// ,**
@@ -58,7 +58,16 @@ print(data)
 # Hundreds place extracted
 data2=number//100
 print(data2)
-
+"""
 # HW : Add digits of a number
+
+numx=int(input("Enter a three digit number"))
+a=numx//100
+b=numx%10
+c=numx%100
+d=c-b
+d/=10
+x=a+d+b
+print(x)
 
 
