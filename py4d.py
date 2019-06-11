@@ -10,4 +10,4 @@ print(type(moreNames))
 moreNames.append["sia"]
 moreNames.remove["Kia"]
 print(moreNames)
-#Tuple is immutable
+#Tuple is immutable so the above attributes dont work
